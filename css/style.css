@@ -12,7 +12,7 @@ body{
 
 
 .holding-container {
-    background: rgb(241, 241, 247);
+    background: rgb(246, 246, 246);
 }
 
 ul {
@@ -25,8 +25,8 @@ li {
     display: inline;
 }
 .logo-img{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .single-hams {
@@ -134,7 +134,7 @@ li {
     border-radius: 50%;
     background: rgb(241, 241, 247);
     position: absolute;
-    font-size: 59%;
+    font-size: 85%;
     color: blue;
     transition: 0.7s;
 }
@@ -268,19 +268,19 @@ a {
     width: 150px;
     padding: 5px 10px;
     background: blue;
-    border-radius: 5px;
+    border-radius: 15px 15px 0 15px;
     color: white;
     font-weight:bold;
-    font-size: 14px;
+    font-size: 15px;
 }
 .button2 {
     width: 150px;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 20px;
+    border-radius: 15px 15px 0 15px;
     color: blue;
     font-weight:bold;
     border: .5px solid blue;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .button2:hover {
@@ -296,27 +296,14 @@ a {
     border: .5px solid cyan
 }
 
-/* .close-button{
-    width: 50px;
-    height: 50px;
-    padding: 5px 10px;
-    border-radius: 100%;
-    color: white;
-    font-weight:bold;
-    border:none;
-    font-size: 15px;
-    outline: none;
-    background: transparent
-} */
-
 .header-text {
-    font-size: 24px;
+    font-size: 1.8em;
     font-weight: 900;
     color: blue;
 }
 
 .intro-paragraph {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .card-img {
@@ -342,7 +329,7 @@ a {
 .input-100 {
     background: rgb(235, 235, 235);
     border: none;
-    width: 250px;
+    width: 270px;
     padding: 15px;
     margin: 7px 0;
     border-radius: 30px;
@@ -360,19 +347,19 @@ a {
 }
 
 .form-button {
-    width: 150px;
-    padding: 5px 10px;
+    width: 200px;
+    padding: 10px 20px;
     background: blue;
-    border-radius: 75px;
+    border-radius: 100px;
     color: white;
     font-weight:bold;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
 }
 
 
 .input-100::placeholder, .textarea-100::placeholder {
-    font-size: .8em;
+    font-size: .9em;
     font-weight: bold;
     color: rgb(192, 188, 188)
 }
